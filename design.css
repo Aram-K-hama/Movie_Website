@@ -1,0 +1,612 @@
+/* rgba(1, 14, 13, 0.991) */
+body {
+    background-color: rgba(255, 255, 255, 0.991);
+    color: rgba(1, 14, 13, 0.991);
+    box-sizing: border-box;
+    font-family: 'Comfortaa';
+}
+
+.blur {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(206, 196, 196, 0.5);
+    backdrop-filter: blur(1px);
+}
+
+/* Navbar section -------------------------------------------------------------*/
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.navbar .list {
+    flex: 1;
+    max-width: 25%;
+}
+
+.navbar .paragraph {
+    margin-left: auto;
+    margin-right: 15%;
+    padding: 6px;
+    font-size: 20px;
+}
+
+.navbar .image {
+    margin-top: 10px;
+}
+
+.navbar .list ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .list ul li {
+    display: inline;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* Slider section --------------------------------------------------------------------------*/
+.swiper {
+    width: 95%;
+    height: 85%;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.swiper::selection {
+    user-select: none;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.Box-1 {
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    width: 625px;
+    height: 360px;
+    text-align: left;
+    padding: 25px;
+    background-color: rgba(18, 21, 22, 0.7);
+    border-radius: 20px;
+}
+
+.Box-1 .card-body {
+    display: flex;
+    height: 250px;
+    margin-top: 30px;
+}
+
+.Box-1 .card-body .card-paragraph {
+    flex: 1;
+    max-width: 550px;
+}
+
+.Box-1 .card-body p {
+    line-height: 35px;
+    color: azure;
+    display: inline;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Box-1 .card-body .arrow {
+    margin-left: 40px;
+    margin-top: 140%;
+    width: 80px;
+    height: 80px;
+    display: inline;
+}
+
+.Box-1 .rate {
+    margin-left: 120px;
+    width: 42px;
+    height: 22px;
+    display: inline;
+}
+
+.Box-1 h4 {
+    display: inline;
+    line-height: 30px;
+    color: white;
+}
+
+.Box-1 h1 {
+    display: block;
+    line-height: 30px;
+    color: white;
+}
+
+.Box-1 .card-body .card-image {
+    display: inline;
+    padding: 0px;
+}
+
+/* ------------------------------- */
+.Box-2 {
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    width: 625px;
+    height: 380px;
+    text-align: left;
+    padding: 25px;
+    background-color: rgba(18, 21, 22, 0.7);
+    border-radius: 20px;
+}
+
+.Box-2 .card-body {
+    display: flex;
+    height: 250px;
+    margin-top: 30px;
+}
+
+
+.Box-2 .card-body .card-paragraph {
+    flex: 1;
+    max-width: 550px;
+}
+
+.Box-2 .card-body p {
+    line-height: 35px;
+    display: inline;
+    color: azure;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Box-2 .card-body .arrow {
+    margin-left: 40px;
+    margin-top: 140%;
+    width: 80px;
+    height: 80px;
+    display: inline;
+}
+
+.Box-2 .rate {
+    margin-left: 420px;
+    width: 42px;
+    height: 22px;
+    display: inline;
+}
+
+.Box-2 h4 {
+    display: inline;
+    line-height: 30px;
+    color: white;
+}
+
+.Box-2 h1 {
+    display: block;
+    line-height: 30px;
+    color: white;
+}
+
+.Box-2 .card-body .card-image {
+    display: inline;
+    padding: 0px;
+}
+
+/* ------------- */
+
+.Box-3 {
+    position: absolute;
+    top: 55%;
+    right: 68%;
+    width: 565px;
+    height: 360px;
+    text-align: left;
+    padding: 25px;
+    background-color: rgba(16, 21, 2, 0.7);
+    border-radius: 20px;
+}
+
+.Box-3 .card-body {
+    display: flex;
+    height: 250px;
+    margin-top: 30px;
+}
+
+
+.Box-3 .card-body .card-paragraph {
+    flex: 1;
+    max-width: 550px;
+}
+
+.Box-3 .card-body p {
+    line-height: 35px;
+    display: inline;
+    color: azure;
+}
+
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Box-3 .card-body .arrow {
+    margin-left: 40px;
+    margin-top: 140%;
+    width: 80px;
+    height: 80px;
+    display: inline;
+}
+
+.Box-3 .rate {
+    margin-left: 440px;
+    width: 42px;
+    height: 22px;
+    display: inline;
+}
+
+.Box-3 h4 {
+    display: inline;
+    line-height: 40px;
+    color: white;
+}
+
+.Box-3 h1 {
+    display: block;
+    line-height: 10px;
+    color: white;
+}
+
+
+.Box-3 .card-body .card-image {
+    display: inline;
+    padding: 0px;
+}
+
+
+/* The Movie card section -----------------------------------------------------*/
+
+.container {
+    display: flex;
+    padding-top: 50px;
+    height: 600px;
+    width: 90%;
+    border-top: 5px rgb(105, 100, 100) solid;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.container .content {
+    width: 430px;
+    height: 570px;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.content {
+    opacity: 1;
+    display: block;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    position: relative
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 47%;
+    left: 41%;
+    width: 337px;
+    height: 507px;
+}
+
+.content:hover .image {
+    opacity: 0.2;
+}
+
+.content:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: white;
+    display: block;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+    padding: 16px 96px;
+    margin-left: 12%;
+    margin-top: 45%;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    padding: 40px 20px;
+}
+
+.genre {
+    font-weight: 100;
+}
+
+.img-btn {
+    height: 38px;
+}
+
+/* Comments section ------------------------------------------*/
+.comments {
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    margin-bottom: 100px;
+    margin: 50px;
+
+}
+
+.comments .content h2 {
+    padding-top: 20px;
+}
+
+.comments .content h3 {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+.comments .content {
+    width: 400px;
+    height: 250px;
+    margin-top: 100px;
+    display: block;
+    background-color: grey;
+    padding: 20px 50px 10px;
+    border-radius: 10px;
+    box-shadow: 0px -25px 0px -10px grey;
+}
+
+/* pop up  section--------------------------------------*/
+.popup {
+    width: 70%;
+    height: 90%;
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    height: 650px;
+    width: 420px;
+    background-color: white;
+    color: black;
+    padding: 40px 30px;
+    border-radius: 5px;
+    position: relative;
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    display: flex;
+    border-radius: 20px;
+}
+
+.popup-content h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+
+.popup-content .first {
+
+    margin-bottom: 50px;
+    color: gray;
+}
+
+.popup-content .last {
+    margin-bottom: 40px;
+}
+
+.popup-content textarea {
+    margin-bottom: 40px;
+    margin-left: 15px;
+    border-radius: 10px;
+
+}
+
+.popup-content .rate {
+    margin-bottom: 30px;
+}
+
+
+.popup-content .fa {
+    margin-left: 20px;
+}
+
+.popup-content .done {
+    display: block;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 45px;
+    padding: 20px 148px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.popup-content .cancel {
+    display: block;
+    color: rgb(30, 25, 25);
+    background-color: lightgrey;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 45px;
+    padding: 20px 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+/* footer section ----------------------------------------------*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+footer .content-1 h1 {
+    display: inline;
+    padding-left: 10px;
+}
+
+footer .content-2 {
+    margin-right: 30px;
+}
+
+.blurred {
+    filter: blur(3px);
+}
+
+
+/* Media Query------------------------------ */
+@media (max-width : 2044px) {
+    .Box-1 {
+        display: none;
+    }
+
+    .Box-2 {
+        display: none;
+    }
+
+    .Box-3 {
+        display: none;
+    }
+}
+
+@media (max-width : 1635px) {
+    .container {
+        flex-wrap: wrap;
+        height: 1400px;
+    }
+
+    .comments {
+        flex-wrap: wrap;
+        height: 1000px;
+    }
+
+    .paragraph {
+        display: none;
+    }
+
+    .list li {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width : 1544px) {
+    .list li {
+        margin-left: 180px;
+    }
+}
+
+@media (max-width : 971px) {
+    .container {
+        margin-right: 30px;
+        height: 2300px;
+    }
+}
+
+@media (max-width : 810px) {
+    .container {
+        margin-right: 30px;
+    }
+
+    .comments {
+        height: 1100px;
+    }
+
+    footer .content-2 {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width : 778px) {
+    footer .content-2 {
+        display: none;
+    }
+
+    footer .content-1 {
+        margin-left: 250px;
+    }
+}
+
+@media (max-width : 738px) {
+    .swiper {
+        left: 40px;
+    }
+}
+
+@media (max-width : 629px) {
+    .container {
+        margin-left: 200px;
+        padding-top: 30px;
+        height: 3400px;
+    }
+
+    .swiper {
+        /* width: 100%; */
+        left: 60px;
+        width: 950px;
+    }
+
+    .comments {
+        margin-left: 10px;
+        width: 600px;
+    }
+
+    .image {
+        width: 500px;
+    }
+}

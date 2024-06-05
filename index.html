@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Assignment</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="toggleMode.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body class="blur-overlay">
+    <!-- Navbar Section------------------------------------------------------------------------->
+    <nav class="navbar">
+        <div class="image">
+            <img src="./Logos/Vector.png" alt="">
+        </div>
+        <div class="list">
+            <ul>
+                <li>WDC MOVIES</li>
+                <li>Home</li>
+            </ul>
+        </div>
+        <div class="paragraph">
+            <p>Level 2 - Week 1 -challenge no.1</p>
+        </div>
+        <div class="toggle">
+            <p>Light</p>
+            <input type="checkbox" id="modeToggle">
+            <label for="modeToggle"></label>
+            <p>Dark</p>
+        </div>
+    </nav>
+    <!-- Sliders------------------------------------------------------------------------------- -->
+    <main class="swiper mySwiper">
+        <section class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="Box-3">
+                    <h4>Drama</h4>
+                    <img src="./Logos/Badge.png" class="rate">
+                    <h1>Breaking Bad</h1>
+                    <div class="card-body">
+                        <div class="card-paragraph">
+                            <p>When Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and
+                                given a prognosis of only two years left to live. He becomes filled with a sense of
+                                fearlessness and an unrelenting desire to secure his family's financial future at any
+                                cost as he enters the dangerous world of drugs and crime.</p>
+                        </div>
+                        <div class="card-image">
+                            <img src="./Logos/arrow-up-right.png" alt="" class="arrow">
+                        </div>
+                    </div>
+                </div>
+                <img src="./Images/The breaking bad.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <div class="Box-1">
+                    <h4>Sci-Fi & Fantasy, Drama, Action & Adventure</h4>
+                    <img src="./Logos/Badge.png" class="rate">
+                    <h1>Game Of Thrones</h1>
+                    <div class="card-body">
+                        <div class="card-paragraph">
+                            <p>Seven noble families fight for control of the mythical land of Westeros. Friction between
+                                the
+                                hou ses leads to full-scale war. All while a very ancient evil awakens in the farthest
+                                north.
+                                Amidst the war, a neglected military order of misfits, the Night's Watch, is all that
+                                stands
+                                between the realms of men and icy horrors beyond.</p>
+                        </div>
+                        <div class="card-image">
+                            <img src="./Logos/arrow-up-right.png" alt="" class="arrow">
+                        </div>
+                    </div>
+                </div>
+                <img src="./Images/Game Of Thrones.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <div class="Box-2">
+                    <h4>Crime, Drama</h4>
+                    <img src="./Logos/Badge.png" class="rate">
+                    <h1>Money Heist</h1>
+                    <div class="card-body">
+                        <div class="card-paragraph">
+                            <p>To carry out the biggest heist in history, a mysterious man called The Professor recruits
+                                a band of eight robbers who have a single characteristic: none of them has anything to
+                                lose. Five months of seclusion - memorizing every step, every detail, every probability
+                                - culminate in eleven days locked up in the National Coinage and Stamp Factory of Spain.
+                            </p>
+                        </div>
+                        <div class="card-image">
+                            <img src="./Logos/arrow-up-right.png" alt="" class="arrow">
+                        </div>
+                    </div>
+                </div>
+                <img src="./Images/Money Heist.jpg" alt="">
+            </div>
+
+
+        </section>
+    </main>
+    <!-- Movie Card Section---------------------------------------------------------------------------------- -->
+    <div class="container">
+        <div class="content">
+            <img src="./Images/John Wick.jpg" class="image">
+            <div class="middle">
+                <div class="rating">
+                    <img src="./Logos/Button.png" class="img-btn">
+                    <ul>
+                        <li>97%</li>
+                    </ul>
+                    <i class="fa fa-imdb imdb" style="font-size: 36px;"></i>
+                    <ul>
+                        <li>97%</li>
+                    </ul>
+                </div>
+                <h1 class="genre">Action,Thriller</h1>
+                <button class="text" id="review-1">Review</button>
+            </div>
+            <h1>John Wick</h1>
+        </div>
+        <div class="content">
+            <img src="./Images/The Foreigner.jpg" class="image">
+            <div class="middle">
+                <div class="rating">
+                    <img src="./Logos/Button.png" class="img-btn">
+                    <ul>
+                        <li>97%</li>
+                    </ul>
+                    <i class="fa fa-imdb imdb" style="font-size: 36px;"></i>
+                    <ul>
+                        <li>97%</li>
+                    </ul>
+                </div>
+                <h1 class="genre">Action,Thriller</h1>
+                <button class="text" id="review-2">Review</button>
+            </div>
+            <h1>The Foreigner</h1>
+        </div>
+        <div class="content">
+            <img src="./Images/The dark Knight.jpg" class="image">
+            <div class="middle">
+                <div class="rating">
+                    <img src="./Logos/Button.png" class="img-btn">
+                    <ul>
+                        <li>97%</li>
+                    </ul>
+                    <i class="fa fa-imdb imdb" style="font-size: 36px;"></i>
+                    <ul>
+                        <li>97%</li>
+                    </ul>
+                </div>
+                <h1 class="genre">Action,Crime</h1>
+                <button class="text" id="review-3">Review</button>
+            </div>
+            <h1>The Dark Knight</h1>
+        </div>
+        <div class="content">
+            <img src="./Images/OPPENHEIMER.jpg" class="image">
+            <div class="middle">
+                <div class="rating">
+                    <img src="./Logos/Button.png" class="img-btn">
+                    <ul>
+                        <li>97%</li>
+                    </ul>
+                    <i class="fa fa-imdb imdb" style="font-size: 36px;"></i>
+                    <ul>
+                        <li>97%</li>
+                    </ul>
+                </div>
+                <h1 class="genre">Historical drama</h1>
+                <button class="text" id="review-4">Review</button>
+            </div>
+            <h1>OPPENHEIMER</h1>
+        </div>
+    </div>
+
+    <!-- Comments  Section --------------------------------------------------------------------------------------->
+    <section class="comments">
+        <div class="content">
+            <h2>Cooooolllll</h2>
+            <div>
+                <i class="fa fa-user-circle-o" style="font-size:40px"></i>
+                <h3>Aram Kurda</h3>
+                <i class="fa fa-star" style="font-size:36px; color: yellow"></i>
+                <i class="fa fa-star" style="font-size:36px; color: yellow"></i>
+                <i class="fa fa-star" style="font-size:36px; color: yellow"></i>
+                <i class="fa fa-star-half-full" style="font-size:36px; color: yellow"></i>
+                <i class="fa fa-star" style="font-size:36px"></i>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Cooooolllll</h2>
+            <div>
+                <i class="fa fa-user-circle-o" style="font-size:40px"></i>
+                <h3>Aram Kurda</h3>
+                <i class="fa fa-star" style="font-size:36px; color: yellow"></i>
+                <i class="fa fa-star" style="font-size:36px; color: yellow"></i>
+                <i class="fa fa-star" style="font-size:36px; color: yellow"></i>
+                <i class="fa fa-star-half-full" style="font-size:36px; color: yellow"></i>
+                <i class="fa fa-star" style="font-size:36px"></i>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Cooooolllll</h2>
+            <div>
+                <i class="fa fa-user-circle-o" style="font-size:40px"></i>
+                <h3>Aram Kurda</h3>
+                <i class="fa fa-star" style="font-size:36px; color: yellow"></i>
+                <i class="fa fa-star" style="font-size:36px; color: yellow"></i>
+                <i class="fa fa-star" style="font-size:36px; color: yellow"></i>
+                <i class="fa fa-star-half-full" style="font-size:36px; color: yellow"></i>
+                <i class="fa fa-star" style="font-size:36px"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Popup ------------------------------------------------------------------>
+    <section class="popup">
+        <div class="popup-content">
+            <div>
+                <h1><b>Review Movie</b></h1>
+                <h3 class="first">Movie Name</h3>
+                <h3 class="second">Review</h3>
+                <textarea name="" id="" cols="45" rows="7"></textarea>
+                <h3 class="rate">Rate</h3>
+                <i class="fa fa-star" style="font-size:48px; color: rgb(175, 97, 29)"></i>
+                <i class="fa fa-star" style="font-size:48px; color: rgb(175, 97, 29)"></i>
+                <i class="fa fa-star" style="font-size:48px; color: rgb(175, 97, 29)"></i>
+                <i class="fa fa-star-half-full" style="font-size:48px; color: rgb(175, 97, 29)"></i>
+                <i class="fa fa-star-o" style="font-size:48px;color: rgb(175, 97, 29)"></i>
+                <button id="close" class="done">Done</button>
+                <button id="cancel" class="cancel">Cancel</button>
+            </div>
+        </div>
+    </section>
+    <div class="blur"></div>
+
+    <!-- Fotter ---------------------------------------------------------------------------------------->
+    <footer>
+        <div class="content-1">
+            <img src="./Logos/Footer.png" alt="">
+            <h1>WDC MOVIES</h1>
+        </div>
+        <div class="content-2">
+            <p>WEB DEVELOPMENT CLUB - KOYA UNIVERSITY</p>
+        </div>
+
+
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="action.js"></script>
+</body>
+
+</html>
